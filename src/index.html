@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chand Ali Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="output.css">
+</head>
+
+<body class="bg-gray-900">
+  <!-- Header -->
+  <header class="bg-blue-950 sticky p-3 pr-10 top-0 z-50 shadow-lg">
+    <nav class="container mx-auto flex items-center justify-between p-4">
+      <!-- Logo -->
+      <div>
+        <span class="text-2xl md:text-3xl font-bold text-gray-200">Chand Ali Portfolio</span>
+      </div>
+
+      <!-- Desktop function -->
+      <ul class="hidden md:flex space-x-6 text-gray-200 text-lg font-medium">
+        <li><a href="#home" class="hover:text-amber-400 transition duration-300">Home</a></li>
+        <li><a href="#about" class="hover:text-amber-400 transition duration-300">About</a></li>
+        <li><a href="#skills" class="hover:text-amber-400 transition duration-300">Skills</a></li>
+        <li><a href="#blogs" class="hover:text-amber-400 transition duration-300">Blogs</a></li>
+        <li><a href="#services" class="hover:text-amber-400 transition duration-300">Services</a></li>
+        <li><a href="#contact" class="hover:text-amber-400 transition duration-300">Contact</a></li>
+      </ul>
+
+      <!-- Mobile Menu Button  -->
+      <button id="menu-btn" class="md:hidden text-gray-200 focus:outline-none p-2 rounded-md hover:bg-blue-800">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+        </svg>
+      </button>
+    </nav>
+  </header>
+
+<!-- home page -->
+  <main id="home" class="container mx-auto pt-16 pb-20 px-4 md:px-8">
+    <div class="flex flex-wrap lg:flex-nowrap justify-between items-center gap-12">
+      <div
+        class="w-full lg:w-1/2 bg-gray-800/50 backdrop-blur-sm p-8 md:p-12 rounded-2xl transition-all duration-300 hover:shadow-xl hover:shadow-blue-900/50">
+        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-gray-200 leading-tight mb-6">
+          Hey, I'm <span class="text-blue-600">Chand <br class="hidden sm:block"> Ali</span> From Pakistan.
+          <br> A Web Developer.
+        </h1>
+     <!-- buttons of home page -->
+        <div class="flex flex-wrap gap-4 mt-8">
+          <!-- Button 1 -->
+          <a href="https://www.youtube.com/@chandrajpoot-w5b" target="_blank"
+            class="inline-flex items-center justify-center bg-amber-400 w-32 h-10 rounded-xl text-lg font-semibold text-white shadow-lg hover:shadow-amber-400/50 duration-300 hover:scale-[1.02] transition-transform">
+            CLick Me
+          </a>
+          <!-- Button 2 -->
+          <a href="https://www.youtube.com/@apnivideoranag" target="_blank"
+            class="inline-flex items-center justify-center bg-amber-400 w-32 h-10 rounded-xl text-lg font-semibold text-white shadow-lg hover:shadow-amber-400/50 duration-300 hover:scale-[1.02] transition-transform">
+            Touch Here
+          </a>
+        </div>
+      </div>
+
+      <!-- information box -->
+      <div class="w-full lg:w-1/3 flex flex-col space-y-8 mt-10 lg:mt-0">
+        <!-- Box 1 -->
+        <div
+          class="bg-gray-800/50 backdrop-blur-sm p-6 flex items-center space-x-4 rounded-3xl shadow-lg transition-all duration-300 hover:scale-[1.02] hover:shadow-blue-900/50 ">
+          <img src="/chand sir chair.png" alt="Chand Ali profile "
+            class="w-12 h-12 rounded-full border-2 border-amber-400">
+          <h4 class="text-gray-200 font-bold text-xl">I am Chand Ali</h4>
+        </div>
+        <!-- Box 2 -->
+        <div
+          class="bg-gray-800/50 backdrop-blur-sm p-6 flex items-center space-x-4 rounded-3xl shadow-lg transition-all duration-300 hover:scale-[1.02] hover:shadow-blue-900/50 ">
+          <img src="/chand sir chair.png" alt="Web Developer icon"
+            class="w-12 h-12 rounded-full border-2 border-amber-400">
+          <h4 class="text-gray-200 font-bold text-xl">I'm Web Developer</h4>
+        </div>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="pt-32 pb-20">
+      <h1 class="text-5xl md:text-6xl text-center text-amber-400 font-extrabold mb-10">About Me</h1>
+
+      <p class="text-lg text-center text-gray-400 max-w-4xl mx-auto mb-16">
+        I’m Chand Ali, a Web Developer skilled in **HTML, CSS, and JavaScript** with one year of experience. I build
+        modern, responsive, and user-focused websites with clean code and creative design. I’m passionate about
+        delivering high-quality work and creating seamless user experiences.
+      </p>
+
+      <div class="flex flex-wrap items-center justify-center lg:justify-start gap-12 lg:gap-20">
+        <!-- Image Placeholder -->
+        <div class="w-full sm:w-80 ">
+          <img src="/chand ali in army .png" alt="Chand Ali sitting on the chair"
+            class="w-full rounded-2xl shadow-xl border-4 border-blue-600 transition-all duration-500 hover:scale-[1.05]">
+        </div>
+
+        <div
+          class=" max-w-xl bg-gray-800/50 backdrop-blur-sm p-8 rounded-2xl shadow-xl transition-all duration-300 hover:shadow-blue-900/70">
+          <h2 class="text-3xl text-amber-400 font-bold mb-4">A Little More About Me</h2>
+          <p class="text-lg text-gray-300 leading-relaxed">
+            I'm Chand Ali, a Web Developer with 1 year of experience in creating modern, responsive, and user-friendly
+            websites. I work with **HTML, CSS, and JavaScript** to build clean & interactive web experiences.
+            <br><br>
+            I have also completed **MS Office**, which helps me manage documentation, professional communication
+            effectively. I’m passionate about learning new technologies, improving my skills, and building projects that
+            combine creativity with clean, functional code.
+          </p>
+        </div>
+      </div>
+                    <!-- loction about my address -->
+      <div class="mt-20 flex flex-wrap justify-center gap-8 md:gap-12">
+        <!-- Location Box -->
+        <div
+          class="bg-gray-800/50 p-6 rounded-3xl shadow-lg text-center transition-all duration-300 hover:scale-105 hover:bg-gray-700/70 w-full sm:w-64">
+          <div class="text-amber-400 text-5xl mb-2">📍</div>
+          <h2 class="text-xl text-gray-200 font-semibold">City Location</h2>
+          <p class="text-lg text-blue-400 font-mono">134/9L Sahiwal, Pakistan</p>
+        </div>
+        <!-- Email Box -->
+        <div
+          class="bg-gray-800/50 p-6 rounded-3xl shadow-lg text-center transition-all duration-300 hover:scale-105 hover:bg-gray-700/70 w-full sm:w-64">
+          <div class="text-amber-400 text-5xl mb-2">📧</div>
+          <h2 class="text-xl text-gray-200 font-semibold">Email Address</h2>
+          <p class="text-lg text-blue-400 font-mono">rajpootbooy30@gmail.com</p>
+        </div>
+        <!-- Phone Box -->
+        <div
+          class="bg-gray-800/50 p-6 rounded-3xl shadow-lg text-center transition-all duration-300 hover:scale-105 hover:bg-gray-700/70 w-full sm:w-64">
+          <div class="text-amber-400 text-5xl mb-2">📞</div>
+          <h2 class="text-xl text-gray-200 font-semibold">Phone Number</h2>
+          <p class="text-lg text-blue-400 font-mono">PK / 03281185585</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- chand ali   Skills  -->
+    <section id="skills" class="pt-32 pb-20">
+      <h1 class="text-5xl md:text-6xl text-amber-400 text-center font-extrabold mb-10">MY SKILLS</h1>
+      <p class="text-lg text-gray-400 text-center max-w-4xl mx-auto mb-16">
+        Professional Web Developer | Expert in HTML, CSS, JavaScript & Tailwind CSS | Specialize in building clean,
+        responsive, and modern websites & | Also proficient in MS Office for professional documentation, reports &
+        presentations.
+      </p>
+
+                   <!-- skills information cards -->
+      <div class="max-w-7xl mx-auto grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-6 p-4">
+
+        <div
+          class="group bg-gray-800 rounded-2xl shadow-xl border-4 border-blue-600 transition-all duration-300 hover:scale-105 hover:shadow-blue-600/50 overflow-hidden text-center">
+          <img src="/HTML.png" alt="html" class="w-full h-50  hover:scale-105 transition-transform duration-500">
+          <h3 class="py-3 text-xl font-semibold text-gray-200">HTML</h3>
+        </div>
+
+        <div
+          class="group bg-gray-800 rounded-2xl shadow-xl border-4 border-blue-600 transition-all duration-300 hover:scale-105 hover:shadow-blue-600/50 overflow-hidden text-center">
+          <img src="/Css .png" alt="css" class="w-full h-50  hover:scale-105 transition-transform duration-500">
+          <h3 class="py-3 text-xl font-semibold text-gray-200">CSS</h3>
+        </div>
+
+        <div
+          class="group bg-gray-800 rounded-2xl shadow-xl border-4 border-blue-600 transition-all duration-300 hover:scale-105 hover:shadow-blue-600/50 overflow-hidden text-center">
+          <img src="/java script .png" alt="JavaScript"
+            class="w-full h-50 hover:scale-105 transition-transform duration-500">
+          <h3 class="py-3 text-xl font-semibold text-gray-200">JavaScript</h3>
+        </div>
+
+        <div
+          class="group bg-gray-800 rounded-2xl shadow-xl border-4 border-blue-600 transition-all duration-300 hover:scale-105 hover:shadow-blue-600/50 overflow-hidden text-center">
+          <img src="/Typing.png" alt="typing " class="w-full h-50 hover:scale-105 transition-transform duration-500">
+          <h3 class="py-3 text-xl font-semibold text-gray-200">Typing</h3>
+        </div>
+        <div
+          class="group bg-gray-800 rounded-2xl shadow-xl border-4 border-blue-600 transition-all duration-300 hover:scale-105 hover:shadow-blue-600/50 overflow-hidden text-center">
+          <img src="/MS word.png" alt="ms word" class="w-full h-50 hover:scale-105 transition-transform duration-500">
+          <h3 class="py-3 text-xl font-semibold text-gray-200">MS WORD</h3>
+        </div>
+        <div
+          class="group bg-gray-800 rounded-2xl shadow-xl border-4 border-blue-600 transition-all duration-300 hover:scale-105 hover:shadow-blue-600/50 overflow-hidden text-center">
+          <img src="/Excel.png" alt="excel" class="w-full h-50 hover:scale-105 transition-transform duration-500">
+          <h3 class="py-3 text-xl font-semibold text-gray-200">Ms Excel</h3>
+        </div>
+        <div
+          class="group bg-gray-800 rounded-2xl shadow-xl border-4 border-blue-600 transition-all duration-300 hover:scale-105 hover:shadow-blue-600/50 overflow-hidden text-center">
+          <img src="/power point.png" alt="powerpoint"
+            class="w-full h-50 hover:scale-105 transition-transform duration-500">
+          <h3 class="py-3 text-xl font-semibold text-gray-200"> powerpoint</h3>
+        </div>
+        <div
+          class="group bg-gray-800 rounded-2xl shadow-xl border-4 border-blue-600 transition-all duration-300 hover:scale-105 hover:shadow-blue-600/50 overflow-hidden text-center">
+          <img src="/MS OFFICE.png" alt="ms office"
+            class="w-full h-50 hover:scale-105 transition-transform duration-500">
+          <h3 class="py-3 text-xl font-semibold text-gray-200"> Ms office</h3>
+        </div>
+      </div>
+
+      <!-- experience -->
+      <div class="mt-20 flex flex-wrap justify-center gap-10">
+        <!-- Web Development experience -->
+        <div
+          class="w-full sm:w-80 bg-gray-800/50 backdrop-blur-sm p-6 rounded-3xl transition-all duration-500 shadow-xl hover:scale-105 hover:shadow-blue-700/50 hover:shadow-xl">
+          <h2 class="text-2xl font-bold text-amber-400 mb-4">Web Development</h2>
+          <div class="flex items-center space-x-3">
+            <div class="w-full h-2.5 rounded-full bg-gray-700 overflow-hidden">
+              <div class="bg-blue-600 h-full w-[97%] rounded-full"></div>
+            </div>
+            <span class="text-gray-300 font-medium">97%</span>
+          </div>
+        </div>
+
+        <!-- MS Office experience-->
+        <div
+          class="w-full sm:w-80 bg-gray-800/50 backdrop-blur-sm p-6 rounded-3xl transition-all duration-500 shadow-xl hover:scale-105 hover:shadow-blue-700/50 hover:shadow-xl">
+          <h2 class="text-2xl font-bold text-amber-400 mb-4">MS Office</h2>
+          <div class="flex items-center space-x-3">
+            <div class="w-full h-2.5 rounded-full bg-gray-700 overflow-hidden">
+              <div class="bg-blue-600 h-full w-[95%] rounded-full"></div>
+            </div>
+            <span class="text-gray-300 font-medium">95%</span>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!--  Banner -->
+    <section class="bg-gray-100 mt-28 rounded-xl shadow-2xl p-10 md:p-20 text-center">
+      <h1 class="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight mb-4">
+        Do you have a Project Idea? <br> Let's discuss your project!
+      </h1>
+      <p class="text-xl text-blue-700 font-medium max-w-4xl mx-auto mb-8">
+        I'm always open to discussing new projects and creative ideas. Let's connect and build something amazing
+        together.
+      </p>
+      <a href="#contact"
+        class="inline-flex items-center justify-center bg-amber-400 w-60 h-12 rounded-xl text-xl font-semibold text-white shadow-lg hover:shadow-amber-400/50 duration-300 hover:scale-[1.05] transition-transform">
+        Let's work together
+      </a>
+    </section>
+
+    <!-- Blogs-->
+    <section id="blogs" class="pt-32 pb-20">
+      <h1 class="text-5xl md:text-6xl text-amber-400 text-center font-extrabold mb-10">Blogs</h1>
+      <p class="text-lg text-gray-400 text-center max-w-4xl mx-auto mb-16">
+        Check out my recent blog posts where I share insights on design, development, and the latest industry trends.
+      </p>
+
+
+      <!-- Blog Card -->
+      <div class="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 p-4">
+        <!-- blog card1 -->
+        <div
+          class="bg-gray-800 rounded-2xl shadow-xl border-4 border-blue-600 transition-all duration-300 hover:scale-[1.02] hover:shadow-blue-600/50 overflow-hidden">
+          <img src="/blogs beautiful .jpg" alt="Blog Image 1"
+            class="w-full h-50 hover:scale-105 transition-transform duration-500">
+          <div class="p-4">
+            <p class="text-sm text-gray-400 mb-2">22, Oct, 2024 | 246 comments</p>
+            <h3 class="text-xl font-semibold text-blue-300 hover:text-blue-400 ">Design for Engaging User
+              Interface...</h3>
+          </div>
+        </div>
+        <!-- blog card2 -->
+        <div
+          class="bg-gray-800 rounded-2xl shadow-xl border-4 border-blue-600 transition-all duration-300 hover:scale-[1.02] hover:shadow-blue-600/50 overflow-hidden">
+          <img src="/img for bloging message.png" alt="Blog Image 2"
+            class="w-full h-50 hover:scale-105 transition-transform duration-500">
+          <div class="p-4">
+            <p class="text-sm text-gray-400 mb-2">22, Oct, 2024 | 246 comments</p>
+            <h3 class="text-xl font-semibold text-blue-300 hover:text-blue-400 ">Design for Engaging User
+              Interface...</h3>
+          </div>
+        </div>
+        <!-- blog card3 -->
+        <div
+          class="bg-gray-800 rounded-2xl shadow-xl border-4 border-blue-600 transition-all duration-300 hover:scale-[1.02] hover:shadow-blue-600/50 overflow-hidden">
+          <img src="/img for blogging light.png" alt="Blog Image 3"
+            class="w-full h-50  hover:scale-105 transition-transform duration-500">
+          <div class="p-4">
+            <p class="text-sm text-gray-400 mb-2">22, Oct, 2022 | 246 comments</p>
+            <h3 class="text-xl font-semibold text-blue-300 hover:text-blue-400 cursor-pointer">Responsive Design:
+              Adapting to all device...</h3>
+          </div>
+        </div>
+        <!-- blog card4 -->
+        <div
+          class="bg-gray-800 rounded-2xl shadow-xl border-4 border-blue-600 transition-all duration-300 hover:scale-[1.02] hover:shadow-blue-600/50 overflow-hidden">
+          <img src="/Blog.png" alt="Blog Image 4"
+            class="w-full h-50  hover:scale-105 transition-transform duration-500">
+          <div class="p-4">
+            <p class="text-sm text-gray-400 mb-2">22, Oct, 2022 | 246 comment</p>
+            <h3 class="text-xl font-semibold text-blue-300 hover:text-blue-400 cursor-pointer">The Art of Effective
+              Blogging...</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="pt-32 pb-20 bg-gray-100 rounded-t-3xl mt-20">
+      <h1 class="text-5xl md:text-6xl text-center text-amber-600 font-extrabold mb-10">Services</h1>
+
+      <div class="container mx-auto flex flex-wrap lg:flex-nowrap justify-between gap-12 p-4">
+
+        <div class="w-full lg:w-1/2 p-4">
+          <h2 class="text-4xl md:text-5xl font-extrabold text-gray-900 mt-10 mb-8">What I Do?</h2>
+          <p class="text-xl text-blue-700 leading-relaxed mb-8">
+            I build responsive and high-performance web applications using modern technologies, ensuring accessibility,
+            scalability, and maintainability. My approach combines creativity and technical expertise to deliver
+            solutions that are both appealing & highly functional for users.
+          </p>
+          <a href="#contact"
+            class="inline-flex items-center justify-center bg-amber-400 w-36 h-12 rounded-xl text-xl font-semibold text-white shadow-lg hover:shadow-amber-400/50 duration-300 hover:scale-[1.05] transition-transform">
+            Say Hello!
+          </a>
+        </div>
+
+        <!-- Services List -->
+        <div class="w-full lg:w-1/2 p-4 space-y-8">
+          <!-- Service 1 -->
+          <div
+            class="bg-white p-6 rounded-2xl shadow-lg border-l-4 border-blue-600 hover:shadow-xl transition duration-300">
+            <h3 class="text-2xl text-gray-900 font-bold mb-2">Web Development</h3>
+            <p class="text-gray-600">I build responsive and high-performance web applications using modern technologies,
+              ensuring accessibility, scalability, and maintainability.</p>
+          </div>
+          <!-- Service 2 -->
+          <div
+            class="bg-white p-6 rounded-2xl shadow-lg border-l-4 border-blue-600 hover:shadow-xl transition duration-300">
+            <h3 class="text-2xl text-gray-900 font-bold mb-2">Documentation</h3>
+            <p class="text-gray-600">I will provide you my website's documentation which includes colors, hex codes, and
+              all related information.</p>
+          </div>
+          <!-- Service 3 -->
+          <div
+            class="bg-white p-6 rounded-2xl shadow-lg border-l-4 border-blue-600 hover:shadow-xl transition duration-300">
+            <h3 class="text-2xl text-gray-900 font-bold mb-2">Figma Design (Interpretation)</h3>
+            <p class="text-gray-600">I can interpret and convert Figma designs into functional, clean, and responsive
+              code.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Page -->
+    <section id="contact" class="pt-32 pb-20">
+      <h1 class="text-5xl md:text-6xl text-center text-amber-400 font-extrabold mb-10">Contact Us</h1>
+
+      <div class="flex flex-wrap lg:flex  justify-center gap-16 p-4">
+                               
+        <div class="w-full lg:w-1/3 p-4">
+          <h2 class="text-4xl text-gray-200 font-bold mb-6">Let’s discuss your Project</h2>
+          <p class="text-xl pt-2 text-blue-300 mb-8">I'm available for freelance work. Drop me a line if you have a
+            project you think I'd be a good fit for.</p>
+
+          <div class="space-y-6">
+            <!-- adreess information -->
+            <div>
+              <h6 class="text-2xl text-white font-semibold mb-1">Address</h6>
+              <p class="text-xl text-blue-300">Sahiwal 134 A9/L, Pakistan</p>
+            </div>
+            <!-- emil information -->
+            <div>
+              <h6 class="text-2xl text-white font-semibold mb-1">Email</h6>
+              <p class="text-xl text-blue-300">MyEmail@mail.com</p>
+            </div>
+             <!-- phone number information -->
+            <div>
+              <h6 class="text-2xl text-white font-semibold mb-1">Call me at number</h6>
+              <p class="text-xl text-blue-300">02281185585</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact page -->
+        <div class="w-full lg:w-1/2 p-4 bg-gray-800/50 backdrop-blur-sm rounded-2xl shadow-xl">
+          <p class="text-xl text-blue-300 mb-6">I'm always open to discussing product design work or partnership
+            opportunities.</p>
+
+          <form action="#" method="POST" class="space-y-6">
+
+            <input type="text" placeholder="Enter your Name" required
+              class="w-full p-4 bg-gray-700/50 border border-gray-600 rounded-lg text-gray-200 placeholder-gray-400 transition all duration-300">
+
+
+            <input type="email" placeholder="Enter your Email" required
+              class="w-full p-4 bg-gray-700/50 border border-gray-600 rounded-lg text-gray-200 placeholder-gray-400 transition all duration-300">
+
+
+            <input type="text" placeholder="Subject" required
+              class="w-full p-4 bg-gray-700/50 border border-gray-600 rounded-lg text-gray-200 placeholder-gray-400 transition all duration-300">
+
+
+            <textarea placeholder="Your Message" rows="5" required
+              class="w-full p-4 bg-gray-700/50 border border-gray-600 rounded-lg text-gray-200 placeholder-gray-400 transition-all duration-300"></textarea>
+
+            <!-- Submit Button -->
+            <button type="submit"
+              class="w-full bg-amber-400 h-12 rounded-xl text-xl font-semibold text-white shadow-lg hover:shadow-amber-400/50 duration-300 hover:scale-[1.02] transition-transform">
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+
+
+
+  <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-10 mt-20 border-t border-gray-800">
+        <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-10">
+
+            <!-- Brand / About -->
+            <div>
+            <h2 class="text-2xl font-semibold mb-3 text-gray-200">Chand Ali</h2>
+            <p class="text-gray-400 leading-relaxed">
+                A passionate beginner developer creating clean, modern and responsive web experiences.
+            </p>
+            </div>
+
+            <!-- Navigation Links -->
+            <div>
+            <h2 class="text-xl font-semibold mb-3 text-gray-200">Quick Links</h2>
+            <ul class="space-y-2 text-gray-400">
+                <li><a href="#projects" class="hover:text-white duration-200 transition-colors">Projects</a></li>
+                <li><a href="#about" class="hover:text-white duration-200 transition-colors">About</a></li>
+                  <li><a href="#skills" class="hover:text-white duration-200 transition-colors">Skills</a></li>
+                    <li><a href="#blogs" class="hover:text-white duration-200 transition-colors">Blogs</a></li>
+                <li><a href="#services" class="hover:text-white duration-200 transition-colors">Services</a></li>
+                <li><a href="#contact" class="hover:text-white duration-200 transition-colors">Contact</a></li>
+            </ul>
+            </div>
+
+            <!-- Social Icons -->
+            <div>
+            <h2 class="text-xl font-semibold mb-3 text-gray-200">Follow Me</h2>
+            <div class="flex items-center space-x-5 mt-2">
+
+                <!-- WhatsApp -->
+                <a href="https://wa.me/03044817654" target="_blank" rel="noopener noreferrer" class="hover:scale-110 duration-200 transition-transform bg-white rounded-full p-1 hover:bg-violet-600" >
+                <img src="/icon for watsapp.png" class="w-8 h-8" alt="WhatsApp">
+                </a>
+
+                <!-- TikTok -->
+                <a href="https://www.tiktok.com/@arvex36" target="_blank" rel="noopener noreferrer" class="hover:scale-110 duration-200 transition-transform bg-white rounded-full p-1 hover:bg-violet-600">
+                <img src="/globe.png" class="w-8 h-8" alt="tiktok">
+                </a>
+
+                <!-- Facebook -->
+                <a href="https://www.facebook.com/profile.php?id=61580479160144" target="_blank" rel="noopener noreferrer" class="hover:scale-110 duration-200 transition-transform bg-white rounded-full p-1 hover:bg-violet-600">
+                <img src="/users-alt.png" class="w-8 h-8" alt="Facebook">
+                </a>
+
+                <!-- Instagram -->
+                <a href="https://www.youtube.com/@chandrajpoot-w5b" target="_blank" rel="noopener noreferrer" class="hover:scale-110 duration-200 transition-transform bg-white rounded-full p-1 hover:bg-violet-600">
+                <img src="/play (1).png" class="w-8 h-8" alt="youtube">
+                </a>
+
+            </div>
+            </div>
+        </div>
+
+        <!-- Bottom -->
+        <div class="text-center text-gray-500 mt-10 border-t border-blue-300 pt-5">
+            © 2025 Chand Ali — All Rights Reserved.
+        </div>
+    </footer>
+
+  
+</body>
+
+</html>
+
+
